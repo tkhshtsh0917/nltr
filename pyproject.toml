@@ -1,0 +1,16 @@
+[project]
+name = "nltr"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.10"
+dependencies = [
+    "numpy>=2.4.1",
+    "torch>=2.10.0",
+]
+
+[dependency-groups]
+dev = [
+    "marimo>=0.19.6",
+    "ruff>=0.14.14",
+]
